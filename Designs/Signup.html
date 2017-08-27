@@ -1,33 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="utf-8"/>
     <title>Shopping List Signup</title>
+    <link rel="stylesheet" href="signup.css">
 </head>
 <body>
-<div>
-    <form>
-        <div>
+<div class="container">
+    <form class="card">
+        <div class="header">
             <h3>Sign Up</h3>
         </div>
-        <div>
-            <div><label for="full_names"> Full names:</label><br/>
+        <div class="loginform">
+            <div class="login"><label for="full_names"> Full names:</label><br/>
                 <input type="text" name="full_names" id="full_names" placeholder="full_names" required="autofocus"/>
             </div>
 
-            <div><label for="email">Email:</label><br/>
+            <div class="login"><label for="email">Email:</label><br/>
                 <input type="text" name="email" id="email" placeholder="email" required="autofocus"/>
             </div>
 
-            <div><label for="user_name">User name:</label><br/>
+            <div class="login"><label for="user_name">User name:</label><br/>
                 <input type="text" name="user_name" id="user_name" placeholder="User name" required="autofocus"/>
             </div>
 
-            <div><label for="password">Password:</label><br/>
+            <div class="login"><label for="password">Password:</label><br/>
                 <input type="password" name="password" id="password" placeholder="password" required="autofocus"/>
             </div>
 
-            <div><label for="confirm_password">Confirm password:</label><br/>
+            <div class="login"><label for="confirm_password">Confirm password:</label><br/>
                 <input type="text" name="confirm_password" id="confirm_password" placeholder="confirm password"
                        required="autofocus"/>
             </div>
@@ -40,4 +39,3 @@
     </form>
 </div>
 </body>
-</html>
